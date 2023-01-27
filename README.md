@@ -13,9 +13,9 @@ module "service_zone" {
 }
 ```
 
-## DNS records 
+## Module DNS records 
 
-Create a number of DNS records for a given list of ip addresses.
+Create a number of DNS A/AAAA records for a given list of ip addresses.
 
 Can add entries for IPv4 and IPv6 addresses and has support for multiple targets and additional CNAME records.
 
