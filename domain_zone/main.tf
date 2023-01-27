@@ -7,7 +7,7 @@ terraform {
 }
 
 data "ovh_order_cart" "default" {
-  ovh_subsidiary = "ca"
+  ovh_subsidiary = var.ovh_subsidiary
 }
 
 data "ovh_order_cart_product_plan" "zone" {
