@@ -4,7 +4,7 @@ variable "ips" {
 }
 
 variable "target_names" {
-  default = ["mailbox", "relay"]
+  default = [""]
 }
 
 variable "target_zone" {
